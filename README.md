@@ -19,7 +19,7 @@
 ## Установка
 
 1. Клонируйте репозиторий:
-git clone https://github.com/your-username/folder-creator-microservice.git
+git clone https://github.com/mikaereli/make_a_folder.git
 cd folder-creator-microservice
 
 
@@ -54,7 +54,7 @@ uvicorn main:app --host 0.0.0.0 --port 8000 --reload
 {
   "query": "Создай папку для моих фотографий с отпуска"
 }
-'''
+
 
 Сервис ответит сообщением, подтверждающим создание папки.
 API документация
